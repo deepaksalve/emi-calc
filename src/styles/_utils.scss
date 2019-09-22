@@ -1,0 +1,34 @@
+.fs--s { font-size: $c-s; }
+.fs--m { font-size: $c-m; }
+.fs--xxl { font-size: $c-xxl; }
+
+.fw--100 { font-weight: 100; }
+
+.ml--m { margin-left: $c-m; }
+
+.mt--xs { margin-top: $c-xs; }
+
+.m--a { margin: auto; }
+.m--0 { margin: 0; }
+
+.pos--a { position: absolute; }
+.pos--f { position: fixed; }
+.pos--r { position: relative; }
+
+.d--f { display: flex; }
+.d--ib { display: inline-block; }
+.d--b { display: block; }
+
+.w--a { width: auto; }
+.w--f { width: 100%; }
+.w--h { width: 50%; }
+.w--z { width: 0; }
+
+.h--a { height: auto; }
+.h--f { height: 100%; }
+
+.va--t { vertical-align: top; }
+
+.ta--r { text-align: right; }
+.ta--c { text-align: center; }
+

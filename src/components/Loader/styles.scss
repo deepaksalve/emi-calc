@@ -1,0 +1,36 @@
+.loader-dot {
+  background-color: $color-grey;
+  width: $c-m;
+  height: $c-m;
+  margin: 0 $c-xxs;
+  border-radius: 100%;
+  animation: loader-frame 0.7s 0s infinite linear;
+  animation-fill-mode: both;
+}
+
+@keyframes loader-frame {
+  0% {
+    transform: scale(1);
+    opacity: 0.01;
+  }
+
+  25% {
+    transform: scale(0.25);
+    opacity: 0.25;
+  }
+
+  50% {
+    transform: scale(0.5);
+    opacity: 0.50;
+  }
+
+  75% {
+    transform: scale(0.75);
+    opacity: 0.75;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

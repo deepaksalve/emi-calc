@@ -1,0 +1,37 @@
+.loan {
+  &__title {
+    margin: $c-m 0;
+  }
+
+  &__amt, &__tenure, &__actions, &__interest {
+    @extend .w--f;
+
+    padding: $c-m;
+
+    &--input {
+      padding: $c-xxs;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid $color-grey;
+      color: $color-light;
+      width: 64px;;
+    }
+  }
+
+  &__calculate, &__label {
+    background: $color-light;
+    border: 3px solid $color-green;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: $c-xs $c-m;
+    min-width: 40%;
+    font-size: 18px;
+  }
+
+  &__label {
+    @extend .ta--c;
+
+    float: left;
+    margin: $c-xs 5%;
+  }
+}

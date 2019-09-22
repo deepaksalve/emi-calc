@@ -1,0 +1,34 @@
+.main-container {
+  @extend .w--f;
+  @extend .h--f;
+
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.site--title {
+  height: 64px;
+  line-height: 64px;
+  margin-left: 24px;
+  font-size: 24px;
+  font-style: normal;
+  color: $color-light;
+}
+
+.site--body {
+  margin: 0 24px;
+}
+
+.line-sep__h {
+  @extend .w--f;
+
+  height: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 16px 0;
+}
+
+.field-error {
+  color: red;
+  font-style: normal;
+  margin-left: 16px;
+}

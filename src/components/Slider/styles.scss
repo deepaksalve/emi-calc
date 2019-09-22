@@ -1,0 +1,41 @@
+.slider {
+  @extend .pos--r;
+  @extend .d--b;
+
+  background: $color-grey-light;
+  border-radius: 10px;
+  height: 12px;
+  margin: 24px 0;
+  touch-action: none;
+  -ms-touch-action: none;
+  width: 90%;
+
+  &__bar {
+    @extend .d--b;
+    @extend .h--f;
+
+    background-color: $color-green;
+    border-radius: $c-s;
+    top: 0;
+  }
+
+  &__knob {
+    @extend .d--ib;
+    @extend .pos--a;
+    @extend .ta--c;
+    @extend .w--a;
+
+    background: $color-light;
+    border: 3px solid $color-green;
+    border-radius: 24px;
+    cursor: pointer;
+    min-width: 64px;
+    padding: $c-xs $c-m;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  &__label {
+    min-width: 80px;
+  }
+}
